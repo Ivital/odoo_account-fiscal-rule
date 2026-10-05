@@ -523,3 +523,203 @@ msgstr "Перевірка"
 #: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_address_validate
 msgid "or"
 msgstr "або"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__invoice_calculate_tax
+msgid "Auto Calculate Tax on Invoice Save"
+msgstr "Автоматично обчислювати податок при збереженні рахунка"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__validation_on_save
+msgid "Automatic Address Validation"
+msgstr "Автоматична перевірка адреси"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__auto_generate_customer_code
+msgid "Automatically generate missing customer code"
+msgstr "Автоматично створювати відсутній код клієнта"
+
+#. module: account_avatax_oca
+#: model_terms:ir.actions.act_window,help:account_avatax_oca.action_avalara_salestax
+msgid "Configuration of AvaTax in odoo"
+msgstr "Конфігурація AvaTax в Odoo"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_ping
+msgid "Connection test successful"
+msgstr "Тест з’єднання успішний"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__disable_address_validation
+msgid "Disable Address Validation"
+msgstr "Вимкнути перевірку адреси"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__disable_tax_calculation
+msgid "Disable AvaTax Calculation"
+msgstr "Вимкнути обчислення AvaTax"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__disable_tax_reporting
+msgid "Disable Document Recording/Commiting"
+msgstr "Вимкнути запис/фіксацію документа"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__upc_enable
+msgid "Enable UPC Taxability"
+msgstr "Увімкнути оподаткування UPC"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_res_partner__validated_on_save
+#: model:ir.model.fields,help:account_avatax_oca.field_res_users__validated_on_save
+msgid ""
+"Indicates if the address is already validated on save before calling the "
+"wizard"
+msgstr ""
+"Вказує, чи адресу вже перевірено під час збереження перед викликом майстра"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_res_partner__validation_method
+#: model:ir.model.fields,help:account_avatax_oca.field_res_users__validation_method
+msgid "It gets populated when the address is validated by the method"
+msgstr "Заповнюється, коли адресу перевірено відповідним методом"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_account_bank_statement_line__exemption_code_id
+#: model:ir.model.fields,help:account_avatax_oca.field_account_move__exemption_code_id
+msgid "It show the customer exemption code"
+msgstr "Показує код звільнення клієнта"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_account_bank_statement_line__exemption_code
+#: model:ir.model.fields,help:account_avatax_oca.field_account_move__exemption_code
+msgid "It show the customer exemption number"
+msgstr "Показує номер звільнення клієнта"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_address_validate
+msgid "Original Address"
+msgstr "Початкова адреса"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__original_country
+msgid "Original Country"
+msgstr "Початкова країна"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__original_street2
+msgid "Original Street2"
+msgstr "Початкова вулиця 2"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_product_tax_code_form
+msgid "Product Tax Code"
+msgstr "Податковий код товару"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields.selection,name:account_avatax_oca.selection__avalara_salestax__service_url__https://rest_avatax_com/api/v2
+msgid "Production (REST API)"
+msgstr "Виробництво (REST API)"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__force_address_validation
+msgid "Require Validated Addresses"
+msgstr "Вимагати перевірені адреси"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__result_in_uppercase
+msgid "Return validation results in upper case"
+msgstr "Повернути результати перевірки у верхньому регістрі"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields.selection,name:account_avatax_oca.selection__avalara_salestax__service_url__https://sandbox-rest_avatax_com/api/v2
+msgid "Sandbox (REST API)"
+msgstr "Пісочниця (REST API)"
+
+#. module: account_avatax_oca
+#: model:ir.actions.act_window,name:account_avatax_oca.action_avalara_salestax_getcompany
+msgid "Select Avatax Company Code"
+msgstr "Вибрати код компанії Avatax"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_getcompany__company_code
+msgid "Select a Company"
+msgstr "Виберіть компанію"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_res_partner__property_exemption_number
+#: model:ir.model.fields,help:account_avatax_oca.field_res_users__property_exemption_number
+msgid "The State identification number relevant fot the exemption"
+msgstr "Державний ідентифікаційний номер, що стосується звільнення"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_res_partner__date_validation
+#: model:ir.model.fields,help:account_avatax_oca.field_res_users__date_validation
+msgid "The date the address was last validated by AvaTax and accepted"
+msgstr "Дата останньої перевірки й прийняття адреси сервісом AvaTax"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_res_partner__property_exemption_code_id
+#: model:ir.model.fields,help:account_avatax_oca.field_res_users__property_exemption_code_id
+msgid "The type of exemption granted"
+msgstr "Тип наданого звільнення"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_res_partner__property_tax_exempt
+#: model:ir.model.fields,help:account_avatax_oca.field_res_users__property_tax_exempt
+msgid "This company or address can claim for tax exemption"
+msgstr "Ця компанія або адреса може претендувати на податкове звільнення"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_account_bank_statement_line__hide_exemption
+#: model:ir.model.fields,help:account_avatax_oca.field_account_move__hide_exemption
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__hide_exemption
+msgid ""
+"Uncheck the this field to show exemption fields on SO/Invoice form view. "
+"Also, it will show Tax based on shipping address button"
+msgstr ""
+"Зніміть цей прапорець, щоб показувати поля звільнення у формі замовлення на "
+"продаж/рахунку. Також буде показано кнопку «Податок на основі адреси "
+"доставки»."
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__use_so_partner_id
+msgid "Use Sale Customer Code on Invoice"
+msgstr "Використовувати код клієнта продажу в рахунку"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_partner_details_form_inherit1
+msgid "Validate Address"
+msgstr "Перевірити адресу"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_address_validate
+msgid "Validated Address"
+msgstr "Перевірена адреса"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__validation_method
+msgid "Validation Method"
+msgstr "Метод перевірки"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_form
+msgid "Visit the AvaTax Admin webpage"
+msgstr "Відвідати вебсторінку адміністратора AvaTax"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_res_partner__property_exemption_country_wide
+#: model:ir.model.fields,help:account_avatax_oca.field_res_users__property_exemption_country_wide
+msgid ""
+"When enabled, the delivery address State is irrelevant when looking up the "
+"exemption status, meaning that the exemption is considered applicable for "
+"all states"
+msgstr ""
+"Якщо увімкнено, штат/область адреси доставки не враховується під час "
+"визначення статусу звільнення, тобто звільнення вважається чинним для всіх "
+"штатів/областей."
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_product_normal_form_avatax_inherit
+msgid "describe the product characteristics..."
+msgstr "опишіть характеристики товару..."

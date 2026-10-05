@@ -77,3 +77,28 @@ msgstr "Оновити податки через AvaTax"
 #: model:ir.model.fields,field_description:account_avatax_sale_oca.field_sale_order__is_avatax
 msgid "Use Avatax API"
 msgstr "Використовувати API Avatax"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,field_description:account_avatax_sale_oca.field_avalara_salestax__sale_calculate_tax
+msgid "Auto Calculate Tax on SO Save"
+msgstr "Автоматично обчислювати податок при збереженні SO"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,help:account_avatax_sale_oca.field_sale_order__exemption_code_id
+msgid "It show the customer exemption code"
+msgstr "Показує код звільнення клієнта"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,help:account_avatax_sale_oca.field_sale_order__exemption_code
+msgid "It show the customer exemption number"
+msgstr "Показує номер звільнення клієнта"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,field_description:account_avatax_sale_oca.field_avalara_salestax__override_line_taxes
+msgid "Override Line Taxes"
+msgstr "Перевизначити податки рядка"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,field_description:account_avatax_sale_oca.field_avalara_salestax__use_partner_invoice_id
+msgid "Use Invoice partner's customer code in SO"
+msgstr "Використовувати код клієнта контрагента рахунка в SO"

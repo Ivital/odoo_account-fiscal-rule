@@ -418,3 +418,98 @@ msgstr "збирач"
 #: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_sector_search
 msgid "sector"
 msgstr "сектор"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_product_product__additional_ecotax_line_product_ids
+msgid "Additional Ecotax Lines"
+msgstr "Додаткові рядки екоподатку"
+
+#. module: account_ecotax
+#: model_terms:ir.actions.act_window,help:account_ecotax.action_ecotax_classification
+msgid "Click to start a new Ecotaxe Classification."
+msgstr "Натисніть, щоб створити нову класифікацію екоподатку."
+
+#. module: account_ecotax
+#: model_terms:ir.actions.act_window,help:account_ecotax.action_ecotax_category
+msgid "Click to start a new Ecotaxe category."
+msgstr "Натисніть, щоб створити нову категорію екоподатку."
+
+#. module: account_ecotax
+#: model_terms:ir.actions.act_window,help:account_ecotax.action_ecotax_collector
+msgid "Click to start a new Ecotaxe collector."
+msgstr "Натисніть, щоб створити нового збирача екоподатку."
+
+#. module: account_ecotax
+#: model_terms:ir.actions.act_window,help:account_ecotax.action_ecotax_sector
+msgid "Click to start a new Ecotaxe sector."
+msgstr "Натисніть, щоб створити новий сектор екоподатку."
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_classification__default_fixed_ecotax
+msgid "Default Fixed Ecotax"
+msgstr "Фіксований екоподаток за замовчуванням"
+
+#. module: account_ecotax
+#: model:ir.model.fields,help:account_ecotax.field_account_move_line_ecotax__amount_unit
+#: model:ir.model.fields,help:account_ecotax.field_ecotax_line_mixin__amount_unit
+msgid "Ecotax Amount computed from Classification or Manual ecotax"
+msgstr "Сума екоподатку, обчислена за класифікацією або введена вручну"
+
+#. module: account_ecotax
+#: model:ir.model.fields,help:account_ecotax.field_account_move_line_ecotax__amount_total
+#: model:ir.model.fields,help:account_ecotax.field_ecotax_line_mixin__amount_total
+msgid ""
+"Ecotax Amount total computed from Classification or forced ecotax amount"
+msgstr ""
+"Загальна сума екоподатку, обчислена за класифікацією або примусово заданою "
+"сумою екоподатку"
+
+#. module: account_ecotax
+#: model:ir.actions.act_window,name:account_ecotax.action_ecotax_classification
+msgid "Ecotax Classification"
+msgstr "Класифікація екоподатку"
+
+#. module: account_ecotax
+#: model_terms:ir.ui.view,arch_db:account_ecotax.product_variant_easy_edit_view
+msgid "Ecotaxe classification"
+msgstr "Класифікація екоподатку"
+
+#. module: account_ecotax
+#: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_classification_form
+msgid "Ecotaxes settings"
+msgstr "Налаштування екоподатків"
+
+#. module: account_ecotax
+#: model:ir.model.fields,help:account_ecotax.field_account_move_line_ecotax__force_amount_unit
+#: model:ir.model.fields,help:account_ecotax.field_ecotax_line_mixin__force_amount_unit
+msgid ""
+"Force ecotax.\n"
+"Allow to add a subtitle to the default Ecotax Classification"
+msgstr ""
+"Примусовий екоподаток.\n"
+"Дозволяє додати підзаголовок до типової класифікації екоподатку"
+
+#. module: account_ecotax
+#: model:ir.model.fields.selection,name:account_ecotax.selection__account_ecotax_classification__supplier_status__res
+msgid "Reseller, under their own brand"
+msgstr "Реселер під власним брендом"
+
+#. module: account_ecotax
+#: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_classification_search
+msgid "Search Ecotaxe Classification"
+msgstr "Пошук класифікації екоподатку"
+
+#. module: account_ecotax
+#: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_category_search
+msgid "Search Ecotaxe category"
+msgstr "Пошук категорії екоподатку"
+
+#. module: account_ecotax
+#: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_collector_search
+msgid "Search Ecotaxe collector"
+msgstr "Пошук збирача екоподатку"
+
+#. module: account_ecotax
+#: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_sector_search
+msgid "Search Ecotaxe sector"
+msgstr "Пошук сектора екоподатку"

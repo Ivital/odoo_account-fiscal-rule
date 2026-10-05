@@ -143,3 +143,30 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
 msgid "Total Ecotax"
 msgstr "Загальний екоподаток"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,help:account_ecotax_sale.field_sale_order_line_ecotax__amount_unit
+msgid "Ecotax Amount computed from Classification or Manual ecotax"
+msgstr "Сума екоподатку, обчислена за класифікацією або введена вручну"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,help:account_ecotax_sale.field_sale_order_line_ecotax__amount_total
+msgid ""
+"Ecotax Amount total computed from Classification or forced ecotax amount"
+msgstr ""
+"Загальна сума екоподатку, обчислена за класифікацією або примусово заданою "
+"сумою екоподатку"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,help:account_ecotax_sale.field_sale_order_line_ecotax__force_amount_unit
+msgid ""
+"Force ecotax.\n"
+"Allow to add a subtitle to the default Ecotax Classification"
+msgstr ""
+"Примусовий екоподаток.\n"
+"Дозволяє додати підзаголовок до типової класифікації екоподатку"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
+msgid "Section Name (eg. Products, Services)"
+msgstr "Назва секції (наприклад, товари, послуги)"

@@ -176,7 +176,7 @@ msgstr "Заборонити"
 #. module: account_product_fiscal_classification
 #: model_terms:ir.ui.view,arch_db:account_product_fiscal_classification.view_account_product_fiscal_classification_form
 msgid "General Information"
-msgstr ""
+msgstr "Загальна інформація"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields.selection,name:account_product_fiscal_classification.selection__account_product_fiscal_classification__tax_scope__consu
@@ -242,7 +242,7 @@ msgstr "Назва"
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_wizard_change_fiscal_classification__new_fiscal_classification_id
 msgid "New Classification"
-msgstr ""
+msgstr "Нова класифікація"
 
 #. module: account_product_fiscal_classification
 #. odoo-python
@@ -265,7 +265,7 @@ msgstr ""
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_wizard_change_fiscal_classification__old_fiscal_classification_id
 msgid "Old Classification"
-msgstr ""
+msgstr "Стара класифікація"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model,name:account_product_fiscal_classification.model_product_template
@@ -282,7 +282,7 @@ msgstr "Товари"
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__product_tmpl_qty
 msgid "Products Quantity"
-msgstr ""
+msgstr "Кількість товарів"
 
 #. module: account_product_fiscal_classification
 #. odoo-python

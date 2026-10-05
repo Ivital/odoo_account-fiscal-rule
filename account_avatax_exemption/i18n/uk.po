@@ -228,3 +228,118 @@ msgstr "Переглянути звільнення:"
 #: model_terms:ir.ui.view,arch_db:account_avatax_exemption.portal_my_exemptions
 msgid "Your Exemptions"
 msgstr "Ваші звільнення"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_rule_form_view
+msgid "Are you sure you want to Cancel the Custom Rule?"
+msgstr "Ви впевнені, що хочете скасувати користувацьке правило?"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_rule_form_view
+msgid "Are you sure you want to Enable the Custom Rule?"
+msgstr "Ви впевнені, що хочете увімкнути користувацьке правило?"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_form_view
+msgid "Are you sure you want to Enable the Exemptions?"
+msgstr "Ви впевнені, що хочете увімкнути звільнення?"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_rule_form_view
+msgid "Are you sure you want to cancel the Custom Rules?"
+msgstr "Ви впевнені, що хочете скасувати користувацькі правила?"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_form_view
+msgid "Are you sure you want to cancel the Exemptions?"
+msgstr "Ви впевнені, що хочете скасувати звільнення?"
+
+#. module: account_avatax_exemption
+#: model:ir.actions.server,name:account_avatax_exemption.ir_cron_download_exemption_ir_actions_server
+msgid "Avatax Exemption Download"
+msgstr "Завантаження звільнення Avatax"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.view_partner_details_form_inherit1_exemption
+msgid "Avatax Exemption related settings are managed on"
+msgstr "Налаштування звільнення Avatax керуються в"
+
+#. module: account_avatax_exemption
+#: model:ir.actions.server,name:account_avatax_exemption.ir_cron_export_exemption_rule_ir_actions_server
+msgid "Avatax Rules: Export New Rules"
+msgstr "Правила Avatax: експортувати нові правила"
+
+#. module: account_avatax_exemption
+#: model:ir.actions.server,name:account_avatax_exemption.ir_cron_export_new_tax_item_ir_actions_server
+msgid "Avatax TaxItem: Export New Items"
+msgstr "Avatax TaxItem: експортувати нові елементи"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_rule_form_view
+msgid "Cancel Failed Job"
+msgstr "Скасувати невдале завдання"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_code_form_view
+msgid "Create Custom Rules"
+msgstr "Створити користувацькі правила"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_rule_form_view
+msgid "Enable Custom Rule"
+msgstr "Увімкнути користувацьке правило"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_form_view
+msgid "Enable Exemptions"
+msgstr "Увімкнути звільнення"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_avalara_salestax__exemption_rule_export
+msgid "Exemption Rule Export"
+msgstr "Експорт правила звільнення"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_form_view
+msgid "Export Exemptions"
+msgstr "Експортувати звільнення"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.view_avalara_salestax_form
+msgid "Export New TaxItems"
+msgstr "Експортувати нові податкові елементи"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.view_avalara_salestax_form
+msgid "Import Exemption Activity Type"
+msgstr "Імпортувати тип діяльності звільнення"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.view_avalara_salestax_form
+msgid "Import Exemptions"
+msgstr "Імпортувати звільнення"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.view_avalara_salestax_form
+msgid "Import Nexus Fed State Info"
+msgstr "Імпортувати інформацію Nexus Fed State"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.portal_my_exemptions
+msgid "No exemptions found."
+msgstr "Звільнення не знайдено."
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code__flag
+msgid "Taxed by default"
+msgstr "Оподатковувати за замовчуванням"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_avalara_salestax__use_commercial_entity
+msgid "Use Commercial Entity"
+msgstr "Використовувати комерційну організацію"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.view_partner_details_form_inherit1_exemption
+msgid "the parent company"
+msgstr "батьківська компанія"

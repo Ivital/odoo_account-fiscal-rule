@@ -85,3 +85,28 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:account_avatax_oca_log.res_config_settings_view_form
 msgid "Notification"
 msgstr "Сповіщення"
+
+#. module: account_avatax_oca_log
+#: model:ir.actions.server,name:account_avatax_oca_log.ir_cron_avatax_api_call_counter_ir_actions_server
+msgid "Avatax API Call Counter"
+msgstr "Лічильник викликів API Avatax"
+
+#. module: account_avatax_oca_log
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca_log.res_config_settings_view_form
+msgid "Avatax API call counter limit."
+msgstr "Ліміт лічильника викликів API Avatax."
+
+#. module: account_avatax_oca_log
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca_log.res_config_settings_view_form
+msgid "Avatax API call counter send notification email on this email."
+msgstr "Лічильник викликів API Avatax надсилає сповіщення на цей email."
+
+#. module: account_avatax_oca_log
+#: model:ir.model.fields.selection,name:account_avatax_oca_log.selection__avatax_log__avatax_type__salesinvoice
+msgid "Invoice Transaction"
+msgstr "Транзакція рахунку"
+
+#. module: account_avatax_oca_log
+#: model:ir.model.fields.selection,name:account_avatax_oca_log.selection__avatax_log__avatax_type__salesorder
+msgid "Sale Transaction"
+msgstr "Транзакція продажу"
