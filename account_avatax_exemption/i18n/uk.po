@@ -372,3 +372,56 @@ msgstr "ID компанії, визначений в Admin Console AvaTax"
 #: model:ir.model.fields,help:account_avatax_exemption.field_exemption_code__flag
 msgid "helps to add custom rules for the nexus Avatax states"
 msgstr "допомагає додавати власні правила для nexus-штатів AvaTax"
+
+#. module: account_avatax_exemption
+#. odoo-python
+#: code:addons/account_avatax_exemption/models/exemption.py:0
+msgid "Avatax rate range is from 0 to 100"
+msgstr "Діапазон ставки Avatax — від 0 до 100"
+
+#. module: account_avatax_exemption
+#. odoo-python
+#: code:addons/account_avatax_exemption/models/exemption.py:0
+msgid "Exemption status needs to be in Cancel status to enable"
+msgstr "Щоб увімкнути, статус звільнення має бути «Скасовано»"
+
+#. module: account_avatax_exemption
+#. odoo-python
+#: code:addons/account_avatax_exemption/models/exemption.py:0
+msgid "Exemption status needs to be in Done status to cancel"
+msgstr "Щоб скасувати, статус звільнення має бути «Виконано»"
+
+#. module: account_avatax_exemption
+#. odoo-python
+#: code:addons/account_avatax_exemption/models/exemption.py:0
+msgid "No Customer code added in Partner"
+msgstr "У партнера не додано код клієнта"
+
+#. module: account_avatax_exemption
+#. odoo-python
+#: code:addons/account_avatax_exemption/models/exemption.py:0
+msgid "No Exemption Lines added"
+msgstr "Рядки звільнення не додано"
+
+#. module: account_avatax_exemption
+#. odoo-python
+#: code:addons/account_avatax_exemption/models/exemption.py:0
+msgid "Rule is not in Cancelled state to Re-Export Custom Rule"
+msgstr ""
+"Правило не перебуває у стані «Скасовано» для повторного експорту "
+"користувацького правила"
+
+#. module: account_avatax_exemption
+#. odoo-python
+#: code:addons/account_avatax_exemption/models/exemption.py:0
+msgid "Rule is not in Done state to Cancel Custom Rule"
+msgstr ""
+"Правило не перебуває у стані «Виконано» для скасування користувацького "
+"правила"
+
+#. module: account_avatax_exemption
+#. odoo-python
+#: code:addons/account_avatax_exemption/models/exemption.py:0
+msgid "Rule is not in Draft state to Export Custom Rule"
+msgstr ""
+"Правило не перебуває у стані «Чернетка» для експорту користувацького правила"

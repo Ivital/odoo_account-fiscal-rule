@@ -157,3 +157,28 @@ msgstr "Країна має бути унікальною!"
 #: model:ir.model,name:l10n_eu_oss_oca.model_oss_tax_rate
 msgid "oss tax rate"
 msgstr "Ставка податку OSS"
+
+#. module: l10n_eu_oss_oca
+#. odoo-python
+#: code:addons/l10n_eu_oss_oca/wizard/l10n_eu_oss_wizard.py:0
+msgid "Intra-EU B2C in %(country_name)s"
+msgstr "Внутрішньоєвропейський B2C у %(country_name)s"
+
+#. module: l10n_eu_oss_oca
+#. odoo-python
+#: code:addons/l10n_eu_oss_oca/wizard/l10n_eu_oss_wizard.py:0
+msgid "OSS VAT %s%%"
+msgstr "OSS ПДВ %s%%"
+
+#. module: l10n_eu_oss_oca
+#. odoo-python
+#: code:addons/l10n_eu_oss_oca/wizard/l10n_eu_oss_wizard.py:0
+msgid "OSS for EU to %(country_name)s: %(rate)s"
+msgstr "OSS для ЄС до %(country_name)s: %(rate)s"
+
+#. module: l10n_eu_oss_oca
+#. odoo-python
+#: code:addons/l10n_eu_oss_oca/wizard/l10n_eu_oss_wizard.py:0
+msgid ""
+"The Europe country group cannot be found. Please update the base module."
+msgstr "Групу країн Європи не знайдено. Оновіть базовий модуль."

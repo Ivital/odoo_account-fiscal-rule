@@ -35,3 +35,13 @@ msgstr ""
 " неможливо зберегти, а рахунки-фактури для цього партнера неможливо "
 "підтвердити, якщо цю фіскальну позицію вибрано у формі партнера або в "
 "рахунку-фактурі."
+
+#. module: account_fiscal_position_vies_warning
+#. odoo-python
+#: code:addons/account_fiscal_position_vies_warning/models/account_fiscal_position.py:0
+msgid ""
+"You can't set the Fiscal Position to %(fiscal_pos)s, %(partner_name)s "
+"doesn't pass VIES VAT number validation!"
+msgstr ""
+"Не можна встановити фіскальну позицію %(fiscal_pos)s: %(partner_name)s не "
+"проходить перевірку номера ПДВ VIES!"

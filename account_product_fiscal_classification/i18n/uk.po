@@ -208,6 +208,11 @@ msgid ""
 "\n"
 "%(extra_message)s"
 msgstr ""
+"Неправильне фіскальне налаштування:\n"
+"- Категорія: %(categ_name)s\n"
+"- Фіскальна класифікація: %(fiscal_name)s\n"
+"\n"
+"%(extra_message)s"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__write_uid
@@ -249,19 +254,19 @@ msgstr "Нова класифікація"
 #. odoo-python
 #: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
 msgid "No Purchase Taxes"
-msgstr ""
+msgstr "Без податків закупівлі"
 
 #. module: account_product_fiscal_classification
 #. odoo-python
 #: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
 msgid "No Sale Taxes"
-msgstr ""
+msgstr "Без податків продажу"
 
 #. module: account_product_fiscal_classification
 #. odoo-python
 #: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
 msgid "No taxes"
-msgstr ""
+msgstr "Без податків"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_wizard_change_fiscal_classification__old_fiscal_classification_id
@@ -383,6 +388,9 @@ msgid ""
 "because it contents %(qty)s products. Please move products to another Fiscal"
 " Classification first."
 msgstr ""
+"Не можна видалити фіскальну класифікацію '%(classification_name)s', оскільки"
+" вона містить %(qty)s товарів. Спочатку перемістіть товари до іншої "
+"фіскальної класифікації."
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

@@ -912,3 +912,194 @@ msgstr ""
 "Використовувати поле «Клієнт» замовлення на продаж для визначення "
 "податкового статусу в рахунку клієнта. Якщо замовлення на продаж відсутнє, "
 "використовуватиметься поле «Клієнт» у формі рахунку."
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/avatax_rest_api.py:0
+msgid ""
+"AvaTax: Notice\n"
+"\n"
+" Address Validation for this country not supported. But, Avalara will still calculate global tax rules."
+msgstr ""
+"AvaTax: Повідомлення\n"
+"\n"
+"Перевірка адрес для цієї країни не підтримується. Але Avalara все одно розрахує глобальні податкові правила."
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/avatax_rest_api.py:0
+msgid ""
+"AvaTax: Warning AvaTax could not validate the address:\n"
+"%s\n"
+"\n"
+"You can save the address and AvaTax will make an attempt to compute taxes based on the zip code if \"Force Address Validation\" is disabled in the Avatax connector configuration.  \n"
+"\n"
+" Also please ensure that the company address is set and Validated.  You can get there by going to Sales->Customers and removing \"Customers\" filter from the search at the top.  Then go to your company contact info and validate your address in the Avatax Tab"
+msgstr ""
+"AvaTax: попередження. AvaTax не вдалося перевірити адресу:\n"
+"%s\n"
+"\n"
+"Ви можете зберегти адресу, і AvaTax спробує обчислити податки за поштовим індексом, якщо в налаштуваннях конектора AvaTax вимкнено «Примусову перевірку адреси».  \n"
+"\n"
+" Також переконайтеся, що адресу компанії задано та підтверджено. Для цього перейдіть до Продажі->Клієнти та приберіть фільтр «Клієнти» з пошуку вгорі. Потім відкрийте контактну інформацію своєї компанії та підтвердьте адресу на вкладці AvaTax."
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/account_move.py:0
+msgid "Avatax address is not validated!"
+msgstr "Адресу Avatax не перевірено!"
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/avalara_salestax.py:0
+msgid "Avatax commiting document %s, but it tax reporting is disabled."
+msgstr "Avatax проводить документ %s, але податкову звітність вимкнено."
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/avalara_salestax.py:0
+msgid "Avatax tax calculation is disabled. Skipping %s %s."
+msgstr "Розрахунок податку Avatax вимкнено. Пропуск %s %s."
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/avatax_rest_api.py:0
+#: code:addons/account_avatax_oca/tests/common.py:0
+msgid ""
+"AvataxClient is not available in your system. Please contact your system "
+"administrator to 'pip3 install Avalara'"
+msgstr ""
+"AvataxClient недоступний у вашій системі. Зверніться до системного "
+"адміністратора, щоб виконати 'pip3 install Avalara'"
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/res_company.py:0
+msgid "Company %s has no Avatax configuration."
+msgstr "Компанія %s не має конфігурації Avatax."
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/res_company.py:0
+msgid "Company %s has too many Avatax configurations!"
+msgstr "Компанія %s має забагато конфігурацій Avatax!"
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/avalara_salestax.py:0
+msgid ""
+"Customer Code for customer %(partner.name)s not defined.\n"
+"\n"
+"  You can edit the Customer Code in customer profile. You can fix by clicking \"Generate Customer Code\" button in the customer contact information"
+msgstr ""
+"Код клієнта для клієнта %(partner.name)s не визначено.\n"
+"\n"
+"  Код клієнта можна відредагувати в профілі клієнта. Також це можна виправити, натиснувши кнопку «Згенерувати код клієнта» в контактній інформації клієнта."
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/partner.py:0
+msgid ""
+"Enabling the exemption status for all states may have tax compliance risks, and should be carefully considered.\n"
+"\n"
+" Please ensure that your tax advisor was consulted and the necessary tax exemption documentation was obtained for every state this Partner may have transactions."
+msgstr ""
+"Увімкнення статусу звільнення для всіх штатів може створити ризики податкової невідповідності, тому це рішення слід ретельно обміркувати.\n"
+"\n"
+" Переконайтеся, що ви проконсультувалися з податковим радником і отримали необхідну документацію про звільнення від податків для кожного штату, у якому цей партнер може здійснювати операції."
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/account_tax.py:0
+msgid ""
+"Incorrect retrieval of Avatax amount for Invoice %(avatax_invoice)s: product"
+" %(product.display_name)s, price_unit %(-price_unit)f , quantity "
+"%(quantity)f"
+msgstr ""
+"Неправильне отримання суми Avatax для рахунку %(avatax_invoice)s: товар "
+"%(product.display_name)s, ціна за одиницю %(-price_unit)f, кількість "
+"%(quantity)f"
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/account_tax.py:0
+msgid "Please configure Avatax Tax for Company %s:"
+msgstr "Налаштуйте податок Avatax для компанії %s:"
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/partner.py:0
+msgid ""
+"Please enter either Exemption Number or Exemption Code for marking customer "
+"as Exempt."
+msgstr ""
+"Для позначення клієнта як звільненого вкажіть номер звільнення або код "
+"звільнення."
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/avatax_rest_api.py:0
+msgid ""
+"Please set the Company Address in the partner information and validate.  We are checking against the first line of the address and it's empty.  \n"
+"\n"
+" Typically located in Sales->Customers, you have to clear \"Customers\" from search filter and type in your own company name.  Ensure the address is filled out and go to Avatax tab in the partner information and validate the address. Save partner update when done."
+msgstr ""
+"Укажіть адресу компанії в інформації про партнера та підтвердьте її. Ми перевіряємо перший рядок адреси, а він порожній.  \n"
+"\n"
+" Зазвичай це робиться в Продажі->Клієнти: потрібно прибрати «Клієнти» з фільтра пошуку та ввести назву своєї компанії. Переконайтеся, що адресу заповнено, перейдіть на вкладку AvaTax в інформації про партнера та підтвердьте адресу. Після завершення збережіть зміни партнера."
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/avalara_salestax.py:0
+msgid "Please validate the origin warehouse address."
+msgstr "Перевірте адресу вихідного складу."
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/avalara_salestax.py:0
+msgid "Please validate the shipping address for the partner %(partner.name)s."
+msgstr "Перевірте адресу доставки для партнера %(partner.name)s."
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/partner.py:0
+msgid "Tax Compliance Risk"
+msgstr "Ризик податкової відповідності"
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/avatax_rest_api.py:0
+msgid ""
+"The AvaTax Address Validation Service does not support this country in the "
+"configuration, please continue with your normal process."
+msgstr ""
+"Служба перевірки адрес AvaTax не підтримує цю країну в конфігурації; "
+"продовжуйте звичайний процес."
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/avatax_rest_api.py:0
+msgid ""
+"The AvaTax Address Validation Service is disabled by the administrator. "
+"Please make sure it's enabled for the address validation"
+msgstr ""
+"Службу перевірки адрес AvaTax вимкнено адміністратором. Переконайтеся, що її"
+" ввімкнено для перевірки адрес"
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/avatax_rest_api.py:0
+msgid "The user or account could not be authenticated"
+msgstr "Не вдалося автентифікувати користувача або обліковий запис"
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/avalara_salestax.py:0
+msgid "There is no Company address defined."
+msgstr "Адресу компанії не визначено."
+
+#. module: account_avatax_oca
+#. odoo-python
+#: code:addons/account_avatax_oca/models/avalara_salestax.py:0
+msgid "There is no source shipping address defined for partner %s."
+msgstr "Для партнера %s не визначено адресу відправлення-джерела."
