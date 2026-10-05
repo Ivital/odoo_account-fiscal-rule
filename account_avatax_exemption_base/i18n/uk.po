@@ -1,0 +1,171 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: account_avatax_exemption_base
+#: model:ir.ui.menu,name:account_avatax_exemption_base.menu_exemption
+msgid "AvaTax Exemption"
+msgstr "Звільнення AvaTax"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_country_state__avatax_code
+msgid "Avatax Code"
+msgstr "Код AvaTax"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_country_state__avatax_name
+msgid "Avatax Name"
+msgstr "Назва AvaTax"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields.selection,name:account_avatax_exemption_base.selection__res_partner_exemption__state__cancel
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_group_state__country_id
+msgid "Country"
+msgstr "Країна"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__create_uid
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_business_type__create_uid
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__create_uid
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__create_uid
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_group_state__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__create_date
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_business_type__create_date
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__create_date
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__create_date
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_group_state__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__display_name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_business_type__display_name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__display_name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__display_name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_group_state__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields.selection,name:account_avatax_exemption_base.selection__res_partner_exemption__state__done
+msgid "Done"
+msgstr "Готово"
+
+#. module: account_avatax_exemption_base
+#: model:ir.actions.act_window,name:account_avatax_exemption_base.exemption_act_window
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__exemption_id
+#: model:ir.ui.menu,name:account_avatax_exemption_base.menu_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption_base.exemption_form_view
+msgid "Exemption"
+msgstr "Звільнення"
+
+#. module: account_avatax_exemption_base
+#: model:ir.actions.act_window,name:account_avatax_exemption_base.exemption_reason_type_act_window
+#: model:ir.model,name:account_avatax_exemption_base.model_res_partner_exemption_business_type
+#: model:ir.ui.menu,name:account_avatax_exemption_base.menu_exemption_reason_type
+msgid "Exemption Activity Type"
+msgstr "Тип активності звільнення"
+
+#. module: account_avatax_exemption_base
+#: model:ir.actions.act_window,name:account_avatax_exemption_base.exemption_type_act_window
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__exemption_type
+#: model:ir.ui.menu,name:account_avatax_exemption_base.menu_exemption_type
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption_base.exemption_type_form_view
+msgid "Exemption Type"
+msgstr "Тип звільнення"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__expiry_date
+msgid "Expiry Date"
+msgstr "Дата закінчення строку"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: account_avatax_exemption_base
+#: model:ir.actions.act_window,name:account_avatax_exemption_base.group_of_states_act_window
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__group_of_state
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__group_of_state
+#: model:ir.ui.menu,name:account_avatax_exemption_base.menu_group_of_states
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption_base.group_of_states_form_view
+msgid "Group of States"
+msgstr "Група штатів"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_business_type__name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_group_state__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__partner_id
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__partner_id
+msgid "Partner"
+msgstr "Партнер"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__rating_ids
+msgid "Ratings"
+msgstr "Рейтинги"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__state
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__state_id
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_group_state__state_ids
+msgid "State"
+msgstr "Стан"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__state_ids
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__state_ids
+msgid "States"
+msgstr "Штати"

@@ -16,18 +16,17 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_rule__action
 msgid "Action"
-msgstr ""
+msgstr "Дія"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__active
 msgid "Active"
-msgstr ""
+msgstr "Активний"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields.selection,name:account_product_fiscal_classification.selection__account_product_fiscal_rule__action__allow
@@ -42,7 +41,7 @@ msgstr ""
 #. module: account_product_fiscal_classification
 #: model_terms:ir.ui.view,arch_db:account_product_fiscal_classification.view_account_product_fiscal_classification_search
 msgid "Archived"
-msgstr ""
+msgstr "Архівовано"
 
 #. module: account_product_fiscal_classification
 #: model_terms:ir.ui.view,arch_db:account_product_fiscal_classification.view_wizard_change_fiscal_classification
@@ -52,13 +51,13 @@ msgstr "Скасувати"
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_rule__category_ids
 msgid "Category"
-msgstr ""
+msgstr "Категорія"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__company_id
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_rule__company_id
 msgid "Company"
-msgstr ""
+msgstr "Компанія"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__create_uid
@@ -156,13 +155,13 @@ msgstr ""
 #: model:ir.actions.act_window,name:account_product_fiscal_classification.action_account_product_fiscal_rule
 #: model:ir.ui.menu,name:account_product_fiscal_classification.menu_account_product_fiscal_rule
 msgid "Fiscal Classification Rules"
-msgstr ""
+msgstr "Правила фіскальної класифікації"
 
 #. module: account_product_fiscal_classification
 #: model:ir.actions.act_window,name:account_product_fiscal_classification.action_account_product_fiscal_classification
 #: model:ir.ui.menu,name:account_product_fiscal_classification.menu_account_product_fiscal_classification
 msgid "Fiscal Classifications"
-msgstr ""
+msgstr "Фіскальні класифікації"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model,name:account_product_fiscal_classification.model_account_product_fiscal_rule
@@ -226,7 +225,7 @@ msgstr "Останнє оновлення"
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_rule__message
 msgid "Message"
-msgstr ""
+msgstr "Повідомлення"
 
 #. module: account_product_fiscal_classification
 #: model:ir.actions.act_window,name:account_product_fiscal_classification.action_wizard_change_fiscal_classification
@@ -238,7 +237,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__name
 #: model_terms:ir.ui.view,arch_db:account_product_fiscal_classification.view_account_product_fiscal_classification_form
 msgid "Name"
-msgstr "Name"
+msgstr "Назва"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_wizard_change_fiscal_classification__new_fiscal_classification_id
@@ -278,7 +277,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__product_tmpl_ids
 #: model_terms:ir.ui.view,arch_db:account_product_fiscal_classification.view_account_product_fiscal_classification_form
 msgid "Products"
-msgstr ""
+msgstr "Товари"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__product_tmpl_qty
@@ -318,7 +317,7 @@ msgstr ""
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__sale_tax_ids
 msgid "Sale Taxes"
-msgstr ""
+msgstr "Податки продажу"
 
 #. module: account_product_fiscal_classification
 #. odoo-python
@@ -335,12 +334,12 @@ msgstr ""
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_rule__sequence
 msgid "Sequence"
-msgstr ""
+msgstr "Послідовність"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields.selection,name:account_product_fiscal_classification.selection__account_product_fiscal_classification__tax_scope__service
 msgid "Services"
-msgstr ""
+msgstr "Послуги"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,help:account_product_fiscal_classification.field_account_product_fiscal_classification__company_id
@@ -362,7 +361,7 @@ msgstr ""
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__tax_scope
 msgid "Tax Scope"
-msgstr ""
+msgstr "Область податку"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model,name:account_product_fiscal_classification.model_wizard_change_fiscal_classification
@@ -374,8 +373,8 @@ msgstr ""
 #: code:addons/account_product_fiscal_classification/models/account_product_fiscal_classification.py:0
 msgid ""
 "You cannot delete The Fiscal Classification '%(classification_name)s' "
-"because it contents %(qty)s products. Please move products to another Fiscal "
-"Classification first."
+"because it contents %(qty)s products. Please move products to another Fiscal"
+" Classification first."
 msgstr ""
 
 #~ msgid "Last Modified on"

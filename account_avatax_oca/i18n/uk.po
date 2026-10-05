@@ -1,0 +1,195 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: account_avatax_oca
+#: model:ir.actions.act_window,name:account_avatax_oca.action_avalara_salestax
+#: model:ir.ui.menu,name:account_avatax_oca.menu_avatax_api
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_form
+msgid "AvaTax API"
+msgstr "API AvaTax"
+
+#. module: account_avatax_oca
+#: model:ir.model,name:account_avatax_oca.model_product_tax_code
+#: model:ir.model.fields,field_description:account_avatax_oca.field_product_category__tax_code_id
+msgid "AvaTax Code"
+msgstr "Код AvaTax"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_move_line__avatax_amt_line
+msgid "AvaTax Line"
+msgstr "Рядок AvaTax"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__city
+msgid "City"
+msgstr "Місто"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_exemption_code__code
+#: model:ir.model.fields,field_description:account_avatax_oca.field_product_tax_code__name
+msgid "Code"
+msgstr "Код"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__company_code
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_form
+msgid "Company Code"
+msgstr "Код компанії"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__country_ids
+msgid "Countries"
+msgstr "Країни"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__country
+msgid "Country"
+msgstr "Країна"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__create_uid
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__create_uid
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_getcompany__create_uid
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_ping__create_uid
+#: model:ir.model.fields,field_description:account_avatax_oca.field_exemption_code__create_uid
+#: model:ir.model.fields,field_description:account_avatax_oca.field_product_tax_code__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__create_date
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__create_date
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_getcompany__create_date
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_ping__create_date
+#: model:ir.model.fields,field_description:account_avatax_oca.field_exemption_code__create_date
+#: model:ir.model.fields,field_description:account_avatax_oca.field_product_tax_code__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_product_tax_code__description
+msgid "Description"
+msgstr "Опис"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__display_name
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__display_name
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_getcompany__display_name
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_ping__display_name
+#: model:ir.model.fields,field_description:account_avatax_oca.field_exemption_code__display_name
+#: model:ir.model.fields,field_description:account_avatax_oca.field_product_tax_code__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: account_avatax_oca
+#: model:ir.actions.act_window,name:account_avatax_oca.action_exemption_code_details
+#: model:ir.ui.menu,name:account_avatax_oca.menu_action_exemption_code_details
+msgid "Entity Use Code"
+msgstr "Код використання сутності"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_tax__is_avatax
+msgid "Is Avatax"
+msgstr "Є AvaTax"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__partner_latitude
+msgid "Latitude"
+msgstr "Широта"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__license_key
+msgid "License Key"
+msgstr "Ліцензійний ключ"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__partner_longitude
+msgid "Longitude"
+msgstr "Довгота"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_ping__name
+#: model:ir.model.fields,field_description:account_avatax_oca.field_exemption_code__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: account_avatax_oca
+#: model:ir.actions.act_window,name:account_avatax_oca.action_product_tax_code
+#: model:ir.ui.menu,name:account_avatax_oca.menu_product_tax_code
+msgid "Product Tax Codes"
+msgstr "Податкові коди товарів"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_bank_statement_line__so_partner_id
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_move__so_partner_id
+msgid "SO Partner"
+msgstr "Партнер SO"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_getcompany
+msgid "Select"
+msgstr "Вибрати"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields.selection,name:account_avatax_oca.selection__product_tax_code__type__service
+msgid "Service"
+msgstr "Послуга"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__service_url
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_form
+msgid "Service URL"
+msgstr "URL сервісу"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__state
+msgid "State"
+msgstr "Стан"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__street
+msgid "Street"
+msgstr "Вулиця"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__street2
+msgid "Street2"
+msgstr "Вулиця 2"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_product_tax_code__type
+msgid "Type"
+msgstr "Тип"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_bank_statement_line__warehouse_id
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_move__warehouse_id
+msgid "Warehouse"
+msgstr "Склад"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__zip
+msgid "Zip"
+msgstr "Поштовий індекс"

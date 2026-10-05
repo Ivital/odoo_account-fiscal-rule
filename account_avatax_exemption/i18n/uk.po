@@ -1,0 +1,117 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: account_avatax_exemption
+#: model:ir.actions.act_window,name:account_avatax_exemption.exemption_rule_act_window
+#: model:ir.model,name:account_avatax_exemption.model_exemption_code_rule
+#: model:ir.ui.menu,name:account_avatax_exemption.menu_exemption_rule
+msgid "Avatax Custom Rules"
+msgstr "Користувацькі правила AvaTax"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__avatax_rate
+msgid "Avatax Rate"
+msgstr "Ставка AvaTax"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_product_tax_code__rule_ids
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_res_country_state__rule_ids
+msgid "Avatax Rules"
+msgstr "Правила AvaTax"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields.selection,name:account_avatax_exemption.selection__exemption_code_rule__state__cancel
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_avalara_salestax__avatax_company_id
+msgid "Company ID"
+msgstr "ID компанії"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields.selection,name:account_avatax_exemption.selection__exemption_code_rule__state__done
+msgid "Done"
+msgstr "Готово"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__exemption_code_id
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_res_partner_exemption__exemption_code_id
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_res_partner_exemption_business_type__exemption_code_id
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_res_partner_exemption_type__exemption_code_id
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_code_form_view
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemptions_table
+msgid "Entity Use Code"
+msgstr "Код використання сутності"
+
+#. module: account_avatax_exemption
+#. odoo-python
+#: code:addons/account_avatax_exemption/controller/main.py:0
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemptions_table
+msgid "Expiry Date"
+msgstr "Дата закінчення строку"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemptions_followup
+msgid "History"
+msgstr "Історія"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__name
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemptions_followup
+msgid "Name"
+msgstr "Назва"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__state_id
+msgid "Region"
+msgstr "Регіон"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code__rule_ids
+msgid "Rule"
+msgstr "Правило"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__state
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemptions_followup
+msgid "State"
+msgstr "Стан"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemptions_followup
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemptions_table
+msgid "Status"
+msgstr "Статус"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__taxable
+msgid "Taxable"
+msgstr "Оподатковується"

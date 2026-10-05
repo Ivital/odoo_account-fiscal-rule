@@ -1,0 +1,222 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_category__active
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_classification__active
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_collector__active
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_sector__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_line_product__amount
+msgid "Amount"
+msgstr "Сума"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_move_line_ecotax__amount_total
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_line_mixin__amount_total
+msgid "Amount Total"
+msgstr "Загальна сума"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_move_line_ecotax__amount_unit
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_line_mixin__amount_unit
+msgid "Amount Unit"
+msgstr "Сума одиниці"
+
+#. module: account_ecotax
+#: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_category_form
+#: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_classification_form
+#: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_collector_form
+#: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_sector_form
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_classification__categ_id
+#: model:ir.ui.menu,name:account_ecotax.menu_ecotax_category
+msgid "Category"
+msgstr "Категорія"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_move_line_ecotax__classification_id
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_line_mixin__classification_id
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_line_product__classification_id
+#: model:ir.ui.menu,name:account_ecotax.menu_ecotax_classification
+#: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_classification_search
+msgid "Classification"
+msgstr "Класифікація"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_category__code
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_classification__code
+msgid "Code"
+msgstr "Код"
+
+#. module: account_ecotax
+#: model:ir.ui.menu,name:account_ecotax.menu_ecotax_collector
+msgid "Collector"
+msgstr "Колектор"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_classification__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_category__create_uid
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_classification__create_uid
+#: model:ir.model.fields,field_description:account_ecotax.field_account_move_line_ecotax__create_uid
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_collector__create_uid
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_line_product__create_uid
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_sector__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_category__create_date
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_classification__create_date
+#: model:ir.model.fields,field_description:account_ecotax.field_account_move_line_ecotax__create_date
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_collector__create_date
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_line_product__create_date
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_sector__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_move_line_ecotax__currency_id
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_line_mixin__currency_id
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_line_product__currency_id
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_category__description
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_sector__description
+#: model_terms:ir.ui.view,arch_db:account_ecotax.view_move_line_ecotax_form
+msgid "Description"
+msgstr "Опис"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_category__display_name
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_classification__display_name
+#: model:ir.model.fields,field_description:account_ecotax.field_account_move_line_ecotax__display_name
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_collector__display_name
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_line_product__display_name
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_sector__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_move_line__subtotal_ecotax
+#: model:ir.ui.menu,name:account_ecotax.menu_ecotax
+#: model_terms:ir.ui.view,arch_db:account_ecotax.view_move_form_inherit
+msgid "Ecotax"
+msgstr "Екоподаток"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_classification__ecotax_coef
+msgid "Ecotax Coef"
+msgstr "Коефіцієнт екоподатку"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_move_line__ecotax_line_ids
+#: model:ir.model.fields,field_description:account_ecotax.field_product_product__ecotax_line_product_ids
+#: model:ir.model.fields,field_description:account_ecotax.field_product_template__ecotax_line_product_ids
+msgid "Ecotax Lines"
+msgstr "Рядки екоподатку"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_classification__ecotax_type
+msgid "Ecotax Type"
+msgstr "Тип екоподатку"
+
+#. module: account_ecotax
+#: model:ir.model.fields.selection,name:account_ecotax.selection__account_ecotax_classification__ecotax_type__fixed
+#: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_classification_search
+msgid "Fixed"
+msgstr "Фіксований"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_product_product__fixed_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_product_template__fixed_ecotax
+msgid "Fixed Ecotax"
+msgstr "Фіксований екоподаток"
+
+#. module: account_ecotax
+#: model:ir.model,name:account_ecotax.model_account_move_line
+#: model:ir.model.fields,field_description:account_ecotax.field_account_move_line_ecotax__account_move_line_id
+msgid "Journal Item"
+msgstr "Журнальна позиція"
+
+#. module: account_ecotax
+#: model:ir.model.fields.selection,name:account_ecotax.selection__account_ecotax_classification__supplier_status__man
+msgid "Manufacturer"
+msgstr "Виробник"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_category__name
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_classification__name
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_collector__name
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_sector__name
+#: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_category_form
+#: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_classification_form
+#: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_collector_form
+#: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_sector_form
+msgid "Name"
+msgstr "Назва"
+
+#. module: account_ecotax
+#: model_terms:ir.ui.view,arch_db:account_ecotax.view_move_line_ecotax_form
+msgid "Note"
+msgstr "Нотатка"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_collector__partner_id
+msgid "Partner"
+msgstr "Партнер"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_move_line_ecotax__quantity
+#: model:ir.model.fields,field_description:account_ecotax.field_ecotax_line_mixin__quantity
+msgid "Quantity"
+msgstr "Кількість"
+
+#. module: account_ecotax
+#: model:ir.model.fields,field_description:account_ecotax.field_account_ecotax_classification__scale_code
+msgid "Scale Code"
+msgstr "Код масштабу"
+
+#. module: account_ecotax
+#: model:ir.ui.menu,name:account_ecotax.menu_ecotax_sector
+msgid "Sector"
+msgstr "Сектор"
+
+#. module: account_ecotax
+#: model_terms:ir.ui.view,arch_db:account_ecotax.view_move_line_ecotax_form
+msgid "Subtotal"
+msgstr "Проміжний підсумок"
+
+#. module: account_ecotax
+#: model_terms:ir.ui.view,arch_db:account_ecotax.view_move_line_ecotax_form
+msgid "Total"
+msgstr "Разом"
+
+#. module: account_ecotax
+#: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_classification_search
+msgid "Type"
+msgstr "Тип"

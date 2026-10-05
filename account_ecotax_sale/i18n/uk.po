@@ -1,0 +1,100 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__amount_total
+msgid "Amount Total"
+msgstr "Загальна сума"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__amount_unit
+msgid "Amount Unit"
+msgstr "Сума одиниці"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__classification_id
+msgid "Classification"
+msgstr "Класифікація"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__currency_id
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
+msgid "Description"
+msgstr "Опис"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line__subtotal_ecotax
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_order_form
+msgid "Ecotax"
+msgstr "Екоподаток"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line__ecotax_line_ids
+msgid "Ecotax Lines"
+msgstr "Рядки екоподатку"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line__ecotax_amount_unit
+msgid "Ecotax Unit"
+msgstr "Одиниця екоподатку"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
+msgid "Invoiced"
+msgstr "Виставлено рахунок"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
+msgid "Note"
+msgstr "Нотатка"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__quantity
+msgid "Quantity"
+msgstr "Кількість"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__sale_order_line_id
+msgid "Sale Line"
+msgstr "Рядок продажу"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
+msgid "Subtotal"
+msgstr "Проміжний підсумок"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
+msgid "Total"
+msgstr "Разом"
