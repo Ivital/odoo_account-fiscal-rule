@@ -166,7 +166,7 @@ msgstr "Фіскальні класифікації"
 #. module: account_product_fiscal_classification
 #: model:ir.model,name:account_product_fiscal_classification.model_account_product_fiscal_rule
 msgid "Fiscal Rule"
-msgstr ""
+msgstr "Фіскальне правило"
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields.selection,name:account_product_fiscal_classification.selection__account_product_fiscal_rule__action__forbid
@@ -196,6 +196,7 @@ msgid ""
 "If unchecked, it will allow you to hide the Fiscal Classification without "
 "removing it."
 msgstr ""
+"Якщо вимкнено, фіскальну класифікацію можна буде приховати без її видалення."
 
 #. module: account_product_fiscal_classification
 #. odoo-python
@@ -306,7 +307,7 @@ msgstr ""
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,help:account_product_fiscal_classification.field_account_product_fiscal_classification__tax_scope
 msgid "Restrict the use of taxes to a type of product."
-msgstr ""
+msgstr "Обмежити використання податків певним типом товару."
 
 #. module: account_product_fiscal_classification
 #. odoo-python
@@ -348,6 +349,9 @@ msgid ""
 "specific company. Otherwise, this Fiscal Classification will be available "
 "for all companies."
 msgstr ""
+"Вкажіть компанію, якщо хочете визначити цю фіскальну класифікацію лише для "
+"конкретної компанії. Інакше ця фіскальна класифікація буде доступна всім "
+"компаніям."
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,help:account_product_fiscal_classification.field_product_product__fiscal_classification_id
@@ -357,6 +361,9 @@ msgid ""
 "If you dont find the correct Fiscal Classification, Please create a new one "
 "or ask to your account manager if you don't have the access right."
 msgstr ""
+"Укажіть комбінацію податків для цього товару. Поле обов’язкове. Якщо "
+"потрібної фіскальної класифікації немає, створіть нову або зверніться до "
+"менеджера обліку, якщо у вас немає відповідних прав."
 
 #. module: account_product_fiscal_classification
 #: model:ir.model.fields,field_description:account_product_fiscal_classification.field_account_product_fiscal_classification__tax_scope
@@ -366,7 +373,7 @@ msgstr "Область податку"
 #. module: account_product_fiscal_classification
 #: model:ir.model,name:account_product_fiscal_classification.model_wizard_change_fiscal_classification
 msgid "Wizard : Change fiscal classification on product"
-msgstr ""
+msgstr "Майстер: змінити фіскальну класифікацію товару"
 
 #. module: account_product_fiscal_classification
 #. odoo-python

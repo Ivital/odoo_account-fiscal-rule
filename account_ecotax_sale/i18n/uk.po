@@ -170,3 +170,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
 msgid "Section Name (eg. Products, Services)"
 msgstr "Назва секції (наприклад, товари, послуги)"
+
+#. module: account_ecotax_sale
+#: model:ir.model,name:account_ecotax_sale.model_sale_order_line_ecotax
+msgid "Sale order line ecotax"
+msgstr "Екоподаток рядка замовлення на продаж"

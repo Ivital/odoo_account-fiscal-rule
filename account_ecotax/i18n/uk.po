@@ -513,3 +513,143 @@ msgstr "Пошук збирача екоподатку"
 #: model_terms:ir.ui.view,arch_db:account_ecotax.ecotax_sector_search
 msgid "Search Ecotaxe sector"
 msgstr "Пошук сектора екоподатку"
+
+#. module: account_ecotax
+#: model:ir.model,name:account_ecotax.model_account_ecotax_category
+msgid "Account Ecotax Category"
+msgstr "Категорія екоподатку обліку"
+
+#. module: account_ecotax
+#: model:ir.model,name:account_ecotax.model_account_move_line_ecotax
+msgid "Account move line ecotax"
+msgstr "Екоподаток рядка бухгалтерського запису"
+
+#. module: account_ecotax
+#: model:ir.model.fields,help:account_ecotax.field_product_product__all_ecotax_line_product_ids
+msgid ""
+"Contain all ecotaxs classification defined in product templateand the additionnal.\n"
+"ecotaxs defined in product variant. For more detailssee the product variant accounting tab"
+msgstr ""
+"Містить усі класифікації екоподатків, визначені у шаблоні товару, а також "
+"додаткові екоподатки, визначені у варіанті товару. Докладніше див. вкладку "
+"бухгалтерського обліку варіанта товару."
+
+#. module: account_ecotax
+#: model:ir.model.fields,help:account_ecotax.field_account_ecotax_classification__default_fixed_ecotax
+msgid "Default fixed ecotax amount."
+msgstr "Типова фіксована сума екоподатку."
+
+#. module: account_ecotax
+#: model:ir.model.fields,help:account_ecotax.field_ecotax_line_product__amount
+msgid "Ecotax Amount computed form Classification or forced ecotax amount"
+msgstr ""
+"Сума екоподатку, обчислена з класифікації або примусово заданої суми "
+"екоподатку"
+
+#. module: account_ecotax
+#: model:ir.model.fields,help:account_ecotax.field_product_product__ecotax_amount
+msgid "Ecotax Amount computed form all ecotax line classification"
+msgstr "Сума екоподатку, обчислена з усіх класифікаційних рядків екоподатку"
+
+#. module: account_ecotax
+#: model:ir.model.fields,help:account_ecotax.field_product_template__ecotax_amount
+msgid "Ecotax Amount computed from Classification"
+msgstr "Сума екоподатку, розрахована з класифікації"
+
+#. module: account_ecotax
+#: model:ir.model,name:account_ecotax.model_ecotax_line_mixin
+msgid "Ecotax Line Mixin"
+msgstr "Міксин рядка екоподатку"
+
+#. module: account_ecotax
+#: model:ir.model,name:account_ecotax.model_ecotax_line_product
+msgid "Ecotax Line product"
+msgstr "Рядок екоподатку товару"
+
+#. module: account_ecotax
+#: model:ir.model,name:account_ecotax.model_ecotax_sector
+msgid "Ecotax Sector"
+msgstr "Сектор екоподатку"
+
+#. module: account_ecotax
+#: model:ir.model.fields,help:account_ecotax.field_product_product__weight_based_ecotax
+#: model:ir.model.fields,help:account_ecotax.field_product_template__weight_based_ecotax
+msgid ""
+"Ecotax value :\n"
+"product weight * ecotax coef of Ecotax Classification"
+msgstr ""
+"Значення екоподатку:\n"
+"вага товару * коефіцієнт екоподатку з класифікації екоподатку"
+
+#. module: account_ecotax
+#: model:ir.model.fields,help:account_ecotax.field_product_product__fixed_ecotax
+#: model:ir.model.fields,help:account_ecotax.field_product_template__fixed_ecotax
+msgid "Fixed ecotax of the Ecotax Classification"
+msgstr "Фіксований екоподаток класифікації екоподатку"
+
+#. module: account_ecotax
+#: model:ir.model.fields,help:account_ecotax.field_ecotax_line_product__force_amount
+msgid ""
+"Force ecotax amount.\n"
+"Allow to substitute default Ecotax Classification"
+msgstr ""
+"Примусова сума екоподатку.\n"
+"Дозволити заміну класифікації екоподатку за замовчуванням"
+
+#. module: account_ecotax
+#: model:ir.model.fields,help:account_ecotax.field_account_ecotax_classification__ecotax_type
+msgid ""
+"If ecotax is weight based,the ecotax coef must take into account\n"
+"the weight unit of measure (kg by default)"
+msgstr ""
+"Якщо екоподаток залежить від ваги, коефіцієнт екоподатку має враховувати\n"
+"одиницю вимірювання ваги (типово кг)"
+
+#. module: account_ecotax
+#: model:ir.model.fields,help:account_ecotax.field_account_ecotax_classification__supplier_status
+msgid ""
+"MAN ==> Manufacturer: is locally established in the country, and manufactures goods which are subject to ecotaxes\n"
+"under their own name and brand, or designs such goods, subcontracts the manufacturing and then sells them under their own name and brand\n"
+"RES ==> Reseller, under their own brand: is locally established in the country, and sells under their own name or brand goods subject to ecotax manufactured by others\n"
+"INT ==> Introducer: is locally established and sells on the local market goods subject to ecotax coming from other countries of the European Union\n"
+"IMP ==> Importer: is established in France, and sells on the local market goods subject to ecotax coming from countries outsidethe European Union\n"
+"REM ==> Remote vendor: is established in another country of the European Union or outside the EU, and remotely sells good subject to ecotaxes to customers in the country"
+msgstr ""
+"MAN ==> Виробник: зареєстрований у країні та виробляє товари, що підлягають екологічним зборам,\n"
+"під власним ім'ям і брендом, або проєктує такі товари, передає виробництво на субпідряд і потім продає їх під власним ім'ям і брендом\n"
+"RES ==> Перепродавець під власним брендом: зареєстрований у країні та продає під власним ім'ям або брендом товари, що підлягають екологічному збору й виготовлені іншими\n"
+"INT ==> Постачальник на ринок: зареєстрований у країні та продає на місцевому ринку товари, що підлягають екологічному збору й надходять з інших країн Європейського Союзу\n"
+"IMP ==> Імпортер: зареєстрований у Франції та продає на місцевому ринку товари, що підлягають екологічному збору й надходять із країн за межами Європейського Союзу\n"
+"REM ==> Дистанційний продавець: зареєстрований в іншій країні Європейського Союзу або за межами ЄС і дистанційно продає клієнтам у країні товари, що підлягають екологічним зборам"
+
+#. module: account_ecotax
+#: model:ir.model.constraint,message:account_ecotax.constraint_ecotax_line_product_unique_classification_id_by_product
+msgid "Only one ecotax classification occurrence by product"
+msgstr "Лише одна класифікація екоподатку на товар"
+
+#. module: account_ecotax
+#: model:ir.model.constraint,message:account_ecotax.constraint_ecotax_line_product_unique_classification_id_by_product_tmpl
+msgid "Only one ecotax classification occurrence by product Template"
+msgstr ""
+"Для шаблону товару допускається лише одне входження класифікації екоподатку"
+
+#. module: account_ecotax
+#: model:ir.model.fields,help:account_ecotax.field_account_ecotax_classification__company_id
+msgid ""
+"Specify a company if you want to define this Ecotax Classification only for "
+"specific company. Otherwise, this Fiscal Classification will be available "
+"for all companies."
+msgstr ""
+"Вкажіть компанію, якщо хочете визначити цю класифікацію екоподатку лише для "
+"конкретної компанії. Інакше ця фіскальна класифікація буде доступна всім "
+"компаніям."
+
+#. module: account_ecotax
+#: model:ir.model.fields,help:account_ecotax.field_account_move_line_ecotax__quantity
+msgid ""
+"The optional quantity expressed by this line, eg: number of product sold. "
+"The quantity is not a legal requirement but is very useful for some reports."
+msgstr ""
+"Необов’язкова кількість, виражена цим рядком, наприклад кількість проданого "
+"товару. Кількість не є законодавчою вимогою, але дуже корисна для деяких "
+"звітів."

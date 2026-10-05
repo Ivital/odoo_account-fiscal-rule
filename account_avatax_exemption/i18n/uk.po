@@ -343,3 +343,32 @@ msgstr "Використовувати комерційну організаці
 #: model_terms:ir.ui.view,arch_db:account_avatax_exemption.view_partner_details_form_inherit1_exemption
 msgid "the parent company"
 msgstr "батьківська компанія"
+
+#. module: account_avatax_exemption
+#. odoo-python
+#: code:addons/account_avatax_exemption/models/exemption.py:0
+msgid "Avatax Exemption Rule export is disabled in Avatax configuration"
+msgstr "Експорт правил звільнення Avatax вимкнено в налаштуваннях Avatax"
+
+#. module: account_avatax_exemption
+#. odoo-python
+#: code:addons/account_avatax_exemption/models/avalara_salestax.py:0
+#: code:addons/account_avatax_exemption/models/exemption.py:0
+msgid "Avatax Exemption export is disabled in Avatax configuration"
+msgstr "Експорт звільнень Avatax вимкнено в налаштуваннях Avatax"
+
+#. module: account_avatax_exemption
+#. odoo-python
+#: code:addons/account_avatax_exemption/controller/main.py:0
+msgid "Newest"
+msgstr "Найновіші"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,help:account_avatax_exemption.field_avalara_salestax__avatax_company_id
+msgid "The company ID as defined in the Admin Console of AvaTax"
+msgstr "ID компанії, визначений в Admin Console AvaTax"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,help:account_avatax_exemption.field_exemption_code__flag
+msgid "helps to add custom rules for the nexus Avatax states"
+msgstr "допомагає додавати власні правила для nexus-штатів AvaTax"

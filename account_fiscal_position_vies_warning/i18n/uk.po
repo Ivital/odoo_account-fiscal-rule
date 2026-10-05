@@ -22,3 +22,16 @@ msgstr "Показувати попередження VIES"
 #: model:ir.model.fields,field_description:account_fiscal_position_vies_warning.field_account_fiscal_position__is_visible_show_vies_warning
 msgid "Visible Show Vies Warning"
 msgstr "Показувати попередження VIES"
+
+#. module: account_fiscal_position_vies_warning
+#: model:ir.model.fields,help:account_fiscal_position_vies_warning.field_account_fiscal_position__is_show_vies_warning
+msgid ""
+"If this field is checked and the partner does not pass VIES validation, the "
+"partner record cannot be saved, and any invoices for this partner cannot be "
+"confirmed if this fiscal position is selected in the Partner form or on an "
+"Invoice"
+msgstr ""
+"Якщо це поле позначено і партнер не проходить перевірку VIES, запис партнера"
+" неможливо зберегти, а рахунки-фактури для цього партнера неможливо "
+"підтвердити, якщо цю фіскальну позицію вибрано у формі партнера або в "
+"рахунку-фактурі."

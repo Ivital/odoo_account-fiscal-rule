@@ -110,3 +110,14 @@ msgstr "Транзакція рахунку"
 #: model:ir.model.fields.selection,name:account_avatax_oca_log.selection__avatax_log__avatax_type__salesorder
 msgid "Sale Transaction"
 msgstr "Транзакція продажу"
+
+#. module: account_avatax_oca_log
+#: model:mail.template,name:account_avatax_oca_log.reaching_limit_avatax_api_call_email
+#: model:mail.template,subject:account_avatax_oca_log.reaching_limit_avatax_api_call_email
+msgid "Avatax API Call Reaching Limit"
+msgstr "Наближення до ліміту викликів API AvaTax"
+
+#. module: account_avatax_oca_log
+#: model:ir.model,name:account_avatax_oca_log.model_avatax_log
+msgid "Avatax API call counter"
+msgstr "Лічильник викликів API AvaTax"

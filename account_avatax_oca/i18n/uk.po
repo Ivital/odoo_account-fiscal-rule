@@ -723,3 +723,192 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_product_normal_form_avatax_inherit
 msgid "describe the product characteristics..."
 msgstr "опишіть характеристики товару..."
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__account_number
+msgid "Account Number provided by AvaTax"
+msgstr "Номер рахунку, наданий AvaTax"
+
+#. module: account_avatax_oca
+#: model:ir.model,name:account_avatax_oca.model_avalara_salestax_address_validate
+msgid "Address Validation using AvaTax"
+msgstr "Перевірка адреси за допомогою AvaTax"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__upc_enable
+msgid ""
+"Allows ean13 to be reported in place of Item Reference as upc identifier."
+msgstr ""
+"Дозволяє передавати ean13 замість посилання на товар як ідентифікатор UPC."
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__invoice_calculate_tax
+msgid ""
+"Automatically triggers API to calculate tax If changes made onInvoice's "
+"warehouse_id, tax_on_shipping_address, Invoice line's price_unit, discount, "
+"quantity"
+msgstr ""
+"Автоматично запускає API для розрахунку податку при змінах warehouse_id, "
+"tax_on_shipping_address рахунку, а також price_unit, discount або quantity "
+"його рядка."
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__validation_on_save
+msgid "Automatically validates addresses when they are created or modified"
+msgstr "Автоматично перевіряти адреси під час їх створення або зміни"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_product_product__tax_code_id
+#: model:ir.model.fields,help:account_avatax_oca.field_product_template__tax_code_id
+msgid "AvaTax Product Tax Code"
+msgstr "Податковий код товару AvaTax"
+
+#. module: account_avatax_oca
+#: model:ir.model.constraint,message:account_avatax_oca.constraint_avalara_salestax_code_company_uniq
+msgid "Avalara setting is already available for this company code"
+msgstr "Налаштування Avalara вже доступне для цього коду компанії"
+
+#. module: account_avatax_oca
+#: model:ir.model,name:account_avatax_oca.model_avalara_salestax_getcompany
+msgid "Avatax Get Company Code"
+msgstr "Отримати код компанії AvaTax"
+
+#. module: account_avatax_oca
+#: model:account.fiscal.position,name:account_avatax_oca.avatax_fiscal_position_us
+msgid "Avatax Tax Mapping (US)"
+msgstr "Зіставлення податків AvaTax (США)"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__company_id
+msgid "Company which has subscribed to the AvaTax service"
+msgstr "Компанія, що підписалася на сервіс AvaTax"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__country_ids
+msgid "Countries where address validation will be used"
+msgstr "Країни, де використовуватиметься перевірка адрес"
+
+#. module: account_avatax_oca
+#: model:ir.model.constraint,message:account_avatax_oca.constraint_res_partner_name_uniq
+msgid "Customer Code must be unique!"
+msgstr "Код клієнта має бути унікальним!"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__request_timeout
+msgid ""
+"Defines AvaTax request time out length, AvaTax best practices prescribes "
+"default setting of 300 seconds"
+msgstr ""
+"Визначає тайм-аут запиту AvaTax; за рекомендаціями AvaTax типове значення — "
+"300 секунд"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__disable_address_validation
+msgid "Disables the ability to perform address validation"
+msgstr "Вимикає можливість перевірки адрес"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__logging
+msgid "Enables detailed AvaTax transaction logging within application"
+msgstr "Увімкнути детальне журналювання транзакцій AvaTax у застосунку"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_account_bank_statement_line__exemption_locked
+#: model:ir.model.fields,help:account_avatax_oca.field_account_move__exemption_locked
+msgid ""
+"Exemption code won't be automatically changed, for instance, when changing "
+"the Customer."
+msgstr ""
+"Код звільнення не змінюватиметься автоматично, наприклад при зміні клієнта."
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__license_key
+msgid "License Key provided by AvaTax"
+msgstr "Ліцензійний ключ, наданий AvaTax"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__disable_tax_calculation
+msgid "No tax calculation requests will be sent to the AvaTax web service."
+msgstr ""
+"Запити на обчислення податків не надсилатимуться до вебсервісу AvaTax."
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__disable_tax_reporting
+msgid "No transactions will be recorded (commited) to the Avatax service."
+msgstr "Жодні транзакції не будуть записані (підтверджені) у сервісі AvaTax."
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__force_address_validation
+msgid "Only compute taxes if addresses were validated by the Avatax service"
+msgstr "Обчислювати податки лише якщо адреси перевірені сервісом AvaTax"
+
+#. module: account_avatax_oca
+#: model:ir.model,name:account_avatax_oca.model_avalara_salestax_ping
+msgid "Ping Service"
+msgstr "Служба Ping"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_account_bank_statement_line__invoice_doc_no
+#: model:ir.model.fields,help:account_avatax_oca.field_account_move__invoice_doc_no
+msgid "Reference of the invoice"
+msgstr "Посилання на рахунок"
+
+#. module: account_avatax_oca
+#: model_terms:account.tax,description:account_avatax_oca.avatax
+msgid "Sales Tax"
+msgstr "Податок із продажу"
+
+#. module: account_avatax_oca
+#: model:ir.model.constraint,message:account_avatax_oca.constraint_avalara_salestax_account_number_company_uniq
+msgid "The account number must be unique per company!"
+msgstr "Номер рахунку має бути унікальним для кожної компанії!"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__result_in_uppercase
+msgid "The address validation results are returned in in upper case"
+msgstr "Результати перевірки адреси повертаються у верхньому регістрі"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__company_code
+msgid "The company code as defined in the Admin Console of AvaTax"
+msgstr "Код компанії, визначений в Admin Console AvaTax"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__service_url
+msgid "The url to connect with"
+msgstr "URL для підключення"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__auto_generate_customer_code
+msgid ""
+"This will generate customer code for the customer used in the transaction, "
+"if it doesn't have one already. Each code is unique per customer.  When this"
+" is disabled, you will have to manually go to each customer and manually "
+"generate their customer code.  This is required for Avatax and is only "
+"generated one time."
+msgstr ""
+"Для клієнта, використаного в транзакції, буде створено код клієнта, якщо "
+"його ще немає. Кожен код унікальний для клієнта. Якщо цей параметр вимкнено,"
+" доведеться вручну переходити до кожного клієнта й генерувати його код. Код "
+"потрібен для Avatax і створюється лише один раз."
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_product_tax_code__type
+msgid "Type of tax code as defined in AvaTax"
+msgstr "Тип податкового коду за визначенням AvaTax"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__active
+msgid "Uncheck the active field to hide the record"
+msgstr "Зніміть активність, щоб приховати запис"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,help:account_avatax_oca.field_avalara_salestax__use_so_partner_id
+msgid ""
+"Use Sales Order's Customer field to determine Taxable Status on the Customer"
+" Invoice. If no Sales Order exists, Customer field on the invoice form view "
+"will be used instead"
+msgstr ""
+"Використовувати поле «Клієнт» замовлення на продаж для визначення "
+"податкового статусу в рахунку клієнта. Якщо замовлення на продаж відсутнє, "
+"використовуватиметься поле «Клієнт» у формі рахунку."

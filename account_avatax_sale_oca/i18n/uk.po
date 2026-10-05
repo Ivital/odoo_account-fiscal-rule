@@ -102,3 +102,49 @@ msgstr "Перевизначити податки рядка"
 #: model:ir.model.fields,field_description:account_avatax_sale_oca.field_avalara_salestax__use_partner_invoice_id
 msgid "Use Invoice partner's customer code in SO"
 msgstr "Використовувати код клієнта контрагента рахунка в SO"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,help:account_avatax_sale_oca.field_avalara_salestax__sale_calculate_tax
+msgid ""
+"Automatically triggers API to calculate tax If changes made onSO's "
+"warehouse_id, tax_on_shipping_address, SO line's price_unit, discount, "
+"product_uom_qty"
+msgstr ""
+"Автоматично запускає API для розрахунку податку при змінах warehouse_id, "
+"tax_on_shipping_address замовлення на продаж, а також price_unit, discount "
+"або product_uom_qty його рядка."
+
+#. module: account_avatax_sale_oca
+#: model:ir.model,name:account_avatax_sale_oca.model_avalara_salestax
+msgid "AvaTax Configuration"
+msgstr "Конфігурація AvaTax"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,help:account_avatax_sale_oca.field_sale_order__location_code
+msgid "Origin address location code"
+msgstr "Код місцезнаходження початкової адреси"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,help:account_avatax_sale_oca.field_sale_order__hide_exemption
+msgid ""
+"Uncheck this field to show exemption fields on SO/Invoice form view. Also, "
+"it will show Tax based on shipping address button"
+msgstr ""
+"Зніміть позначку, щоб показати поля звільнення у формі замовлення/рахунка. "
+"Також буде показано кнопку податку за адресою доставки"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,help:account_avatax_sale_oca.field_avalara_salestax__use_partner_invoice_id
+msgid "Use Sales Order's Invoice Address field to determine TaxableStatus"
+msgstr ""
+"Використовувати поле адреси рахунку замовлення на продаж для визначення "
+"TaxableStatus"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,help:account_avatax_sale_oca.field_avalara_salestax__override_line_taxes
+msgid ""
+"When checked, the Avatax computed tax will replace any other taxes that may "
+"exist in the document line."
+msgstr ""
+"Якщо позначено, податок, обчислений AvaTax, замінить усі інші податки в "
+"рядку документа."

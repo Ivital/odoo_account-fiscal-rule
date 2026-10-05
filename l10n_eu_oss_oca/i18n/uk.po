@@ -147,3 +147,13 @@ msgid ""
 msgstr ""
 "Вибирайте лише податки поточного плану рахунків.\n"
 "                Якщо потрібного типу податку немає, не налаштовуйте його."
+
+#. module: l10n_eu_oss_oca
+#: model:ir.model.constraint,message:l10n_eu_oss_oca.constraint_oss_tax_rate_oss_country_id_uniq
+msgid "The Country must be unique !"
+msgstr "Країна має бути унікальною!"
+
+#. module: l10n_eu_oss_oca
+#: model:ir.model,name:l10n_eu_oss_oca.model_oss_tax_rate
+msgid "oss tax rate"
+msgstr "Ставка податку OSS"

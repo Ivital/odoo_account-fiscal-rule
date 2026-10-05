@@ -38,3 +38,29 @@ msgstr "Екоподатки"
 #: model:ir.model.fields,field_description:account_ecotax_tax.field_account_ecotax_classification__purchase_ecotax_ids
 msgid "Purchase EcoTax"
 msgstr "Екоподаток закупівлі"
+
+#. module: account_ecotax_tax
+#: model:ir.model,name:account_ecotax_tax.model_account_ecotax_classification
+msgid "Account Ecotax Classification"
+msgstr "Класифікація екоподатку обліку"
+
+#. module: account_ecotax_tax
+#: model:account.tax.group,name:account_ecotax_tax.tax_group_ecotax
+msgid "Eco-participation"
+msgstr "Екоучасть"
+
+#. module: account_ecotax_tax
+#: model:account.tax,name:account_ecotax_tax.tax_ecotax
+msgid "EcoTax"
+msgstr "Екоподаток"
+
+#. module: account_ecotax_tax
+#: model:ir.model.fields,help:account_ecotax_tax.field_account_tax__is_ecotax
+msgid ""
+"Warning : To include Ecotax in the VAT tax check this :\n"
+"1: check  \"included in base amount \"\n"
+"2: The Ecotax sequence must be less then VAT tax (in sale and purchase)"
+msgstr ""
+"Увага: щоб включити екоподаток до розрахунку ПДВ:\n"
+"1: позначте «включено до базової суми»\n"
+"2: послідовність екоподатку має бути меншою за послідовність ПДВ (у продажах і закупівлях)."

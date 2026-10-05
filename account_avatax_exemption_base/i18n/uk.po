@@ -426,3 +426,29 @@ msgstr "Тип дії-винятку для запису."
 #: model:ir.model.fields,help:account_avatax_exemption_base.field_res_partner_exemption__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model,name:account_avatax_exemption_base.model_res_partner_exemption
+msgid "Avatax Exemption"
+msgstr "Звільнення AvaTax"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model,name:account_avatax_exemption_base.model_res_partner_exemption_line
+msgid "Avatax Exemption Line"
+msgstr "Рядок звільнення AvaTax"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model,name:account_avatax_exemption_base.model_res_partner_exemption_type
+msgid "Avatax Exemption Type"
+msgstr "Тип звільнення AvaTax"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model,name:account_avatax_exemption_base.model_res_partner_group_state
+msgid "Avatax Group of States"
+msgstr "Група штатів AvaTax"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,help:account_avatax_exemption_base.field_res_partner_exemption__exemption_validity_duration
+#: model:ir.model.fields,help:account_avatax_exemption_base.field_res_partner_exemption_type__exemption_validity_duration
+msgid "Validity duration in days"
+msgstr "Тривалість дії в днях"
