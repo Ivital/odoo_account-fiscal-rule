@@ -55,3 +55,41 @@ msgstr "Країна OSS"
 #: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_l10n_eu_oss_wizard__reduced_tax
 msgid "Reduced Tax"
 msgstr "Знижений податок"
+
+#. module: l10n_eu_oss_oca
+#: model_terms:ir.ui.view,arch_db:l10n_eu_oss_oca.res_config_settings_view_form_l10n_eu_oss_oca
+msgid "Add new taxes"
+msgstr "Додати нові податки"
+
+#. module: l10n_eu_oss_oca
+#: model_terms:ir.ui.view,arch_db:l10n_eu_oss_oca.l10n_eu_oss_oca_wizard_form_view
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: l10n_eu_oss_oca
+#: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_oss_tax_rate__general_rate
+msgid "General Rate"
+msgstr "Загальна ставка"
+
+#. module: l10n_eu_oss_oca
+#: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_l10n_eu_oss_wizard__write_uid
+#: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_oss_tax_rate__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: l10n_eu_oss_oca
+#: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_l10n_eu_oss_wizard__write_date
+#: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_oss_tax_rate__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: l10n_eu_oss_oca
+#: model:ir.model.fields,field_description:l10n_eu_oss_oca.field_oss_tax_rate__reduced_rate
+msgid "Reduced Rate"
+msgstr "Знижена ставка"
+
+#. module: l10n_eu_oss_oca
+#: model:ir.actions.act_window,name:l10n_eu_oss_oca.l10n_eu_oss_oca_wizard_action
+#: model_terms:ir.ui.view,arch_db:l10n_eu_oss_oca.l10n_eu_oss_oca_wizard_form_view
+msgid "Setup EU OSS OCA Taxes"
+msgstr "Налаштувати податки EU OSS OCA"

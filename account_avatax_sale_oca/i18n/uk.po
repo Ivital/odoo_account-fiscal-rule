@@ -17,3 +17,63 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_avatax_sale_oca.field_sale_order__tax_address_id
 msgid "Tax Address"
 msgstr "Податкова адреса"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,field_description:account_avatax_sale_oca.field_sale_order__avatax_request_log
+msgid "Avatax API Request Log"
+msgstr "Журнал запитів API Avatax"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,field_description:account_avatax_sale_oca.field_sale_order__avatax_response_log
+msgid "Avatax API Response Log"
+msgstr "Журнал відповідей API Avatax"
+
+#. module: account_avatax_sale_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_sale_oca.sale_order_update_form_view
+msgid "Avatax Log"
+msgstr "Журнал Avatax"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,field_description:account_avatax_sale_oca.field_sale_order__calculate_tax_on_save
+msgid "Calculate Tax On Save"
+msgstr "Розраховувати податок під час збереження"
+
+#. module: account_avatax_sale_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_sale_oca.sale_order_update_form_view
+msgid "Compute Taxes"
+msgstr "Обчислити податки"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,field_description:account_avatax_sale_oca.field_sale_order__exemption_code_id
+msgid "Exemption Code"
+msgstr "Код звільнення"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,field_description:account_avatax_sale_oca.field_sale_order__exemption_code
+msgid "Exemption Number"
+msgstr "Номер звільнення"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,field_description:account_avatax_sale_oca.field_sale_order__hide_exemption
+msgid "Hide Exemption & Tax Based on shipping address"
+msgstr "Приховувати звільнення та податок залежно від адреси доставки"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,field_description:account_avatax_sale_oca.field_sale_order__location_code
+msgid "Location Code"
+msgstr "Код місця"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,field_description:account_avatax_sale_oca.field_sale_order__tax_on_shipping_address
+msgid "Tax based on shipping address"
+msgstr "Податок залежно від адреси доставки"
+
+#. module: account_avatax_sale_oca
+#: model:ir.actions.server,name:account_avatax_sale_oca.action_sale_order_compute_taxes
+msgid "Update taxes with AvaTax"
+msgstr "Оновити податки через AvaTax"
+
+#. module: account_avatax_sale_oca
+#: model:ir.model.fields,field_description:account_avatax_sale_oca.field_sale_order__is_avatax
+msgid "Use Avatax API"
+msgstr "Використовувати API Avatax"

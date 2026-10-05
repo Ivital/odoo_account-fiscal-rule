@@ -28,3 +28,13 @@ msgstr "Одиниця екоподатку"
 #: model:ir.model.fields,field_description:account_ecotax_tax.field_account_ecotax_classification__sale_ecotax_ids
 msgid "Sale EcoTax"
 msgstr "Екоподаток продажу"
+
+#. module: account_ecotax_tax
+#: model_terms:ir.ui.view,arch_db:account_ecotax_tax.ecotax_classification_form
+msgid "Ecotaxes"
+msgstr "Екоподатки"
+
+#. module: account_ecotax_tax
+#: model:ir.model.fields,field_description:account_ecotax_tax.field_account_ecotax_classification__purchase_ecotax_ids
+msgid "Purchase EcoTax"
+msgstr "Екоподаток закупівлі"

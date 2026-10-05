@@ -115,3 +115,116 @@ msgstr "Статус"
 #: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__taxable
 msgid "Taxable"
 msgstr "Оподатковується"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.form_breadcrumb
+msgid "/ My Exemptions"
+msgstr "/ мої звільнення"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__avatax_id
+msgid "Avatax Rule ID"
+msgstr "ID правила Avatax"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__avatax_tax_code
+msgid "Avatax Tax Code"
+msgstr "Податковий код Avatax"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_product_product__avatax_item_id
+msgid "Avatax TaxItem"
+msgstr "TaxItem Avatax"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_form_view
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_rule_form_view
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_rule_form_view
+msgid "Custom Rules"
+msgstr "Власні правила"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields.selection,name:account_avatax_exemption.selection__exemption_code_rule__state__draft
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemptions_table
+msgid "Effective Date"
+msgstr "Дата набрання чинності"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_avalara_salestax__exemption_export
+msgid "Exemption Export"
+msgstr "Експорт звільнень"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_code_form_view
+msgid "Exemption Rules"
+msgstr "Правила звільнення"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.portal_layout
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.portal_my_home_exemptions
+msgid "Exemptions"
+msgstr "Звільнення"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_rule_form_view
+msgid "Export Rules"
+msgstr "Правила експорту"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.view_avalara_salestax_form
+msgid "Import TaxItems"
+msgstr "Імпортувати TaxItems"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields.selection,name:account_avatax_exemption.selection__exemption_code_rule__state__progress
+msgid "In Progress"
+msgstr "У процесі"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__is_all_juris
+msgid "Is All Juris"
+msgstr "Усі юрисдикції"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_exemption_code_rule__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_avatax_exemption
+#. odoo-python
+#: code:addons/account_avatax_exemption/models/exemption.py:0
+msgid "New"
+msgstr "Новий"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemption_rule_form_view
+msgid "Reset to Draft"
+msgstr "Повернути в чернетку"
+
+#. module: account_avatax_exemption
+#: model:ir.model.fields,field_description:account_avatax_exemption.field_avalara_salestax__tax_item_export
+msgid "Tax Item Export"
+msgstr "Експорт Tax Item"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.exemptions_followup
+msgid "View Exemption:"
+msgstr "Переглянути звільнення:"
+
+#. module: account_avatax_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption.portal_my_exemptions
+msgid "Your Exemptions"
+msgstr "Ваші звільнення"

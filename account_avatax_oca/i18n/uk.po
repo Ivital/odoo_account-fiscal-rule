@@ -193,3 +193,333 @@ msgstr "Склад"
 #: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__zip
 msgid "Zip"
 msgstr "Поштовий індекс"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_address_validate
+msgid "Accept"
+msgstr "Прийняти"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__account_number
+msgid "Account Number"
+msgstr "Номер рахунку"
+
+#. module: account_avatax_oca
+#: model:ir.actions.act_window,name:account_avatax_oca.action_avalara_salestax_address_validate
+#: model:ir.actions.server,name:account_avatax_oca.action_call_address_validation_method
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_address_validate
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_form
+msgid "Address Validation"
+msgstr "Перевірка адреси"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_partner__validation_method
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_users__validation_method
+msgid "Address Validation Method"
+msgstr "Метод перевірки адреси"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_form
+msgid "Advanced"
+msgstr "Розширений"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_product_category__applicable_tax_code_id
+#: model:ir.model.fields,field_description:account_avatax_oca.field_product_product__applicable_tax_code_id
+#: model:ir.model.fields,field_description:account_avatax_oca.field_product_template__applicable_tax_code_id
+msgid "Applicable AvaTax Code"
+msgstr "Застосовний код AvaTax"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_product_category_form_avatax_inherit
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_product_normal_form_avatax_inherit
+msgid "AvaTax Properties"
+msgstr "Властивості AvaTax"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_bank_statement_line__avatax_request_log
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_move__avatax_request_log
+msgid "Avatax API Request Log"
+msgstr "Журнал запитів API Avatax"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_bank_statement_line__avatax_response_log
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_move__avatax_response_log
+msgid "Avatax API Response Log"
+msgstr "Журнал відповідей API Avatax"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_move_form_inherit_1
+msgid "Avatax Log"
+msgstr "Журнал Avatax"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_bank_statement_line__calculate_tax_on_save
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_move__calculate_tax_on_save
+msgid "Calculate Tax On Save"
+msgstr "Розраховувати податок під час збереження"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_address_validate
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_getcompany
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__company_partner_id
+msgid "Company Address"
+msgstr "Адреса компанії"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_move_form_inherit_1
+msgid "Compute Taxes"
+msgstr "Обчислити податки"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_form
+msgid "Connection"
+msgstr "З'єднання"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_partner__customer_code
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_users__customer_code
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_partner_details_form_inherit1
+msgid "Customer Code"
+msgstr "Код клієнта"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__date_validation
+msgid "Date Validation"
+msgstr "Дата перевірки"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields.selection,name:account_avatax_oca.selection__product_tax_code__type__digital
+msgid "Digital"
+msgstr "Цифровий"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_partner__property_exemption_country_wide
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_users__property_exemption_country_wide
+msgid "Exemption Applies Country Wide"
+msgstr "Звільнення діє по всій країні"
+
+#. module: account_avatax_oca
+#: model:ir.model,name:account_avatax_oca.model_exemption_code
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_bank_statement_line__exemption_code_id
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_move__exemption_code_id
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_partner__property_exemption_code_id
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_users__property_exemption_code_id
+msgid "Exemption Code"
+msgstr "Код звільнення"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_partner__exemption_code_id
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_users__exemption_code_id
+msgid "Exemption Code (Deprecated)"
+msgstr "Код звільнення (застарілий)"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_bank_statement_line__exemption_locked
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_move__exemption_locked
+msgid "Exemption Locked"
+msgstr "Звільнення заблоковано"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_bank_statement_line__exemption_code
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_move__exemption_code
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_partner__property_exemption_number
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_users__property_exemption_number
+msgid "Exemption Number"
+msgstr "Номер звільнення"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_partner__exemption_number
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_users__exemption_number
+msgid "Exemption Number (Deprecated)"
+msgstr "Номер звільнення (застарілий)"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields.selection,name:account_avatax_oca.selection__product_tax_code__type__freight
+msgid "Freight"
+msgstr "Перевезення"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_partner_details_form_inherit1
+msgid "Generate"
+msgstr "Згенерувати"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_bank_statement_line__hide_exemption
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_move__hide_exemption
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__hide_exemption
+msgid "Hide Exemption & Tax Based on shipping address"
+msgstr "Приховувати звільнення та податок залежно від адреси доставки"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_partner__property_tax_exempt
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_users__property_tax_exempt
+msgid "Is Tax Exempt"
+msgstr "Звільнено від оподаткування"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_partner__tax_exempt
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_users__tax_exempt
+msgid "Is Tax Exempt (Deprecated))"
+msgstr "Звільнено від оподаткування (застаріле)"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__write_uid
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__write_uid
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_getcompany__write_uid
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_ping__write_uid
+#: model:ir.model.fields,field_description:account_avatax_oca.field_exemption_code__write_uid
+#: model:ir.model.fields,field_description:account_avatax_oca.field_product_tax_code__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__write_date
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__write_date
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_getcompany__write_date
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_ping__write_date
+#: model:ir.model.fields,field_description:account_avatax_oca.field_exemption_code__write_date
+#: model:ir.model.fields,field_description:account_avatax_oca.field_product_tax_code__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_partner__date_validation
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_users__date_validation
+msgid "Last Validation Date"
+msgstr "Дата останньої перевірки"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_bank_statement_line__location_code
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_move__location_code
+msgid "Location Code"
+msgstr "Код місця"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__logging
+msgid "Log API Requests"
+msgstr "Журналювати API-запити"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_ping
+msgid "OK"
+msgstr "Гаразд"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__original_city
+msgid "Original City"
+msgstr "Початкове місто"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__original_state
+msgid "Original State"
+msgstr "Початковий стан"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__original_street
+msgid "Original Street"
+msgstr "Початкова вулиця"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax_address_validate__original_zip
+msgid "Original Zip"
+msgstr "Початковий ZIP"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields.selection,name:account_avatax_oca.selection__product_tax_code__type__other
+#: model:ir.model.fields.selection,name:account_avatax_oca.selection__res_partner__validation_method__other
+msgid "Other"
+msgstr "Інше"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_product_product__tax_code_id
+#: model:ir.model.fields,field_description:account_avatax_oca.field_product_template__tax_code_id
+msgid "Product AvaTax Code"
+msgstr "Код AvaTax товару"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_product_normal_form_avatax_inherit
+msgid "Product Description"
+msgstr "Опис товару"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_avalara_salestax__request_timeout
+msgid "Request Timeout"
+msgstr "Тайм-аут запиту"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_form
+msgid "Select Company"
+msgstr "Вибрати компанію"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_bank_statement_line__invoice_doc_no
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_move__invoice_doc_no
+msgid "Source/Ref Invoice No"
+msgstr "Номер вихідного/довідкового рахунку"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_form
+msgid "Tax Calculation"
+msgstr "Розрахунок податку"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_partner_details_form_inherit1
+msgid "Tax Exemption"
+msgstr "Податкове звільнення"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_bank_statement_line__tax_address_id
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_move__tax_address_id
+msgid "Tax Shipping Address"
+msgstr "Податок за адресою доставки"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_bank_statement_line__tax_on_shipping_address
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_move__tax_on_shipping_address
+msgid "Tax based on shipping address"
+msgstr "Податок залежно від адреси доставки"
+
+#. module: account_avatax_oca
+#: model:ir.actions.act_window,name:account_avatax_oca.action_avalara_salestax_ping
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_form
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_ping
+msgid "Test Connection"
+msgstr "Перевірити з'єднання"
+
+#. module: account_avatax_oca
+#: model:ir.actions.server,name:account_avatax_oca.action_account_invoice_compute_taxes
+msgid "Update taxes with AvaTax"
+msgstr "Оновити податки через AvaTax"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_bank_statement_line__is_avatax
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_fiscal_position__is_avatax
+#: model:ir.model.fields,field_description:account_avatax_oca.field_account_move__is_avatax
+msgid "Use Avatax API"
+msgstr "Використовувати API Avatax"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_partner_details_form_inherit1
+msgid "Validate"
+msgstr "Підтвердити"
+
+#. module: account_avatax_oca
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_partner__validated_on_save
+#: model:ir.model.fields,field_description:account_avatax_oca.field_res_users__validated_on_save
+msgid "Validated On Save"
+msgstr "Перевірено під час збереження"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_partner_details_form_inherit1
+msgid "Validation"
+msgstr "Перевірка"
+
+#. module: account_avatax_oca
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca.view_avalara_salestax_address_validate
+msgid "or"
+msgstr "або"

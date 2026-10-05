@@ -39,3 +39,49 @@ msgstr "Створено"
 #: model:ir.model.fields,field_description:account_avatax_oca_log.field_avatax_log__display_name
 msgid "Display Name"
 msgstr "Відображувана назва"
+
+#. module: account_avatax_oca_log
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca_log.res_config_settings_view_form
+msgid "API Call Counter"
+msgstr "Лічильник викликів API"
+
+#. module: account_avatax_oca_log
+#: model:ir.model.fields,field_description:account_avatax_oca_log.field_res_config_settings__avatax_api_call_notification_ids
+msgid "Avatax Api Call Notification"
+msgstr "Сповіщення про виклик API Avatax"
+
+#. module: account_avatax_oca_log
+#: model:ir.model.fields,field_description:account_avatax_oca_log.field_avatax_log__avatax_request
+msgid "Avatax Request"
+msgstr "Запит Avatax"
+
+#. module: account_avatax_oca_log
+#: model:ir.model.fields,field_description:account_avatax_oca_log.field_avatax_log__avatax_response
+msgid "Avatax Response"
+msgstr "Відповідь Avatax"
+
+#. module: account_avatax_oca_log
+#: model:ir.model.fields,field_description:account_avatax_oca_log.field_res_config_settings__call_counter_limit
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca_log.res_config_settings_view_form
+msgid "Call Counter Limit"
+msgstr "Ліміт лічильника дзвінків"
+
+#. module: account_avatax_oca_log
+#: model:ir.model.fields.selection,name:account_avatax_oca_log.selection__avatax_log__avatax_type__cancel
+msgid "Cancel / Void"
+msgstr "Скасувати / анулювати"
+
+#. module: account_avatax_oca_log
+#: model:ir.model.fields,field_description:account_avatax_oca_log.field_avatax_log__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_avatax_oca_log
+#: model:ir.model.fields,field_description:account_avatax_oca_log.field_avatax_log__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_avatax_oca_log
+#: model_terms:ir.ui.view,arch_db:account_avatax_oca_log.res_config_settings_view_form
+msgid "Notification"
+msgstr "Сповіщення"

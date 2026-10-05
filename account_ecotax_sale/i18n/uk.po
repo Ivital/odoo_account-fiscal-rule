@@ -98,3 +98,48 @@ msgstr "Проміжний підсумок"
 #: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
 msgid "Total"
 msgstr "Разом"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.report_saleorder_document
+msgid "<span name=\"ecotax_line_label\">Eco Part Unit</span>"
+msgstr "<span name=\"ecotax_line_label\">Одиниця екологічної частини</span>"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
+msgid "Delivered"
+msgstr "Доставлено"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
+msgid "Ecotax lines"
+msgstr "Рядки екоподатку"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__force_amount_unit
+msgid "Force Amount Unit"
+msgstr "Примусова одинична сума"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order__amount_ecotax
+msgid "Included Ecotaxe"
+msgstr "Включений екоподаток"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.document_tax_totals
+msgid "Including Eco Part"
+msgstr "Включно з екологічною частиною"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_ecotax_sale
+#: model:ir.model.fields,field_description:account_ecotax_sale.field_sale_order_line_ecotax__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_ecotax_sale
+#: model_terms:ir.ui.view,arch_db:account_ecotax_sale.view_sale_line_ecotax_form
+msgid "Total Ecotax"
+msgstr "Загальний екоподаток"
